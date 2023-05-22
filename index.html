@@ -1,0 +1,38 @@
+<!-- I've done a few research on this project and used a couple of examples on this links to come up with a code to complete me task -->
+<!-- https://www.w3schools.com/howto/howto_js_trigger_button_enter.asp -->
+<!-- https://www-geeksforgeeks-org.cdn.ampproject.org/v/s/www.geeksforgeeks.org/how-to-remove-an-added-list-items-using-javascript/amp/?amp_gsa=1&amp_js_v=a9&usqp=mq331AQKKAFQArABIIACAw%3D%3D#amp_tf=From%20%251%24s&aoh=16574132399746&referrer=https%3A%2F%2Fwww.google.com&ampshare=https%3A%2F%2Fwww.geeksforgeeks.org%2Fhow-to-remove-an-added-list-items-using-javascript%2F -->
+<!-- https://www.codegrepper.com/code-examples/javascript/set+input+value+back+to+empty+javascript -->
+<!-- https://www.w3schools.com/jsref/met_element_remove.asp -->
+<!-- https://www.youtube.com/watch?v=y17RuWkWdn8&list=PLPZ5K0J4Pox16KRPEkuOyZP4BbnFEtNxy&index=22&t=131s -->
+<!-- https://www.youtube.com/watch?v=uUnn_SZvik8&list=PLPZ5K0J4Pox16KRPEkuOyZP4BbnFEtNxy&index=39 -->
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shopping List</title>
+
+        <!-- Link Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+        <!-- External CSS link-->
+        <link rel="stylesheet" href="./style.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <h2>Shopping List</h2>
+
+            <div class="header">
+                <input type="text" id="input" placeholder="Item">
+                <span onclick="itemAdd()" id="addBtn">Add Item</span>
+                <span onclick="cart()" id="showCart">Cart</span>
+            </div>
+            
+            <ul id="itemList"> </ul>
+        </div>
+
+        <script src="./main.js"></script>
+    </body>
+</html>

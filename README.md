@@ -6,3 +6,4 @@ Vanilla JavaScript Todo list
 2. You can deleted one item on the list by clicking on the x button
 3. When you want to select the items that have been baught cleck on the item.
 4. You can also check your Shopping cart by clicking on the cart button.
+5. There are some items preloaded to the cart already but you can always deleted those items.
